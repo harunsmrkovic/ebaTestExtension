@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "UniCredit BiH",
+  "description": "Ova ekstenzija uzima stanje vaseg tekuceg racuna",
+  "version": "1.0",
+  "permissions": [
+    "https://www.unicreditbank.ba/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="jquery-migrate-1.2.1.min.js"></script>
+    <script src="fetch.js"></script>
+  </head>
+  <body>
+    <form id="login">
+      <input type="text" name="brojTokena" id="brojTokena" placeholder="Broj tokena">
+      <input type="text" name="otp" id="otp" placeholder="OTP">
+      <button type="button" id="submit">Log In</button>
+    </form>
+    <h3 id="stanje"></h3>
+  </body>
+  
+</html>
+
